@@ -1,0 +1,8 @@
+web sekolah:
+https://revou-fundamental-course.github.io/03-mar-25-Ahsaju107/
+
+web quizz jepang:
+https://ahsaju107.github.io/japanese-quizz/
+
+web todo list:
+https://ahsaju107.github.io/latihan-todo-list/

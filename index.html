@@ -37,26 +37,28 @@
    <!--TOP BAR SECTION END-->
 
    <!--HERO SECTION START--> 
-   <section id="hero" class="pt-36">
+   <section id="hero" class="pt-36">  
       <div class="container mx-auto px-4">
 
          <div class="flex flex-wrap items-center">
             <div class="w-full px-4 mb-10 lg:w-1/2">
-               <h4 class="text-xl font-semibold">─── Hello, it's me</h4>
-               <h1 class="my-1 text-5xl font-bold my-2 text-indigo-500 drop-shadow-[0px_0px_10px_rgba(48,63,159,0.9)]">Ahmad
+               <h4 class="text-xl font-semibold text-center md:text-left">─── Hello, it's me</h4>
+               <h1 class="my-1 text-5xl text-center md:text-left font-bold my-2 text-indigo-500 drop-shadow-[0px_0px_10px_rgba(48,63,159,0.9)]">Ahmad
                   Saddam Juwardi</h1>
-               <h4 class="text-xl font-semibold mb-1">and i'm just a <span
+               <h4 class="text-xl text-center md:text-left font-semibold mb-1">and i'm just a <span
                      class="text-indigo-500 font-extrabold">student</span>
                </h4>
-               <p class="indent-5 m-2">Hai! Perkenalkan nama saya Ahmad Saddam Juwardi, saya bersekolah di SMK Negeri 1 Palasah. Dan saya sangat menyukai seputar teknologi seperti pemrograman berbasis web, IoT, dan sebagainya.</p>
+               <p class="indent-5 m-2 text-center md:text-left">Hai! Perkenalkan nama saya Ahmad Saddam Juwardi, saya bersekolah di SMK Negeri 1 Palasah. Dan saya sangat menyukai seputar teknologi seperti pemrograman berbasis web, IoT, dan sebagainya.</p>
 
-               <div id="sosmed" class="gap-3 text-2xl mb-4">
+               <div id="sosmed" class="gap-4 text-2xl text-center md:text-left mb-5">
                   <i class="fa-brands fa-instagram transition-all hover:text-indigo-500 duration-300"></i>
                   <i class="fa-brands fa-facebook transition-all hover:text-indigo-500 duration-300"></i>
                   <i class="fa-brands fa-github transition-all hover:text-indigo-500 duration-300"></i>
                </div>
-               <a href="./pages/contact.html" class="font-semibold bg-indigo-500 rounded-3xl py-2 px-3 border-2 border-transparent hover:bg-transparent hover:border-indigo-500 hover:text-indigo-500 hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300">contact
-                  me</a>
+               <div class="text-center md:text-left">
+                 <a href="./pages/contact.html" class=" bg-indigo-500 rounded py-2 px-3 border-2 border-transparent hover:bg-transparent hover:border-indigo-500 hover:text-indigo-500 hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300">contact
+                   me</a>
+               </div>
             </div>
             
             <div class="w-full px-4 lg:w-1/2">
@@ -166,8 +168,51 @@
 
       </div>
     </div>
-  </section>
+    </section>
    <!--SKILLS SECTION END-->
+
+   <!--PROJECT SECTION START-->
+   <section id="projects" class="pt-32">
+    <div class="container max-w-full px-3 md:px-7">
+      <div class="judul text-center mb-10">
+        <h2 class="text-3xl font-bold mb-4 relative inline-block after:content-[''] after:block after:w-1/2 after:h-1 after:bg-indigo-500 after:mx-auto after:mt-2 after:rounded-lg">My Projects</h2>
+        <p class="text-sm md:text-base">Berikut ini adalah beberapa project yang pernah saya buat</p>
+      </div>
+
+      <div class="list-card grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <div class="project-card bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300">
+          <img src="./assets/images/thumbnail-sekolah.png" alt="thumbnail-sekolah">
+          <div class="project-content p-4">
+            <h3 class="font-semibold text-xl mb-2">Website Sekolah</h3>
+            <p>Website ini adalah platform untuk sekolah yang menyediakan informasi dan layanan kepada siswa dan orang tua.</p>
+          </div>
+          <a class="ml-3 mb-3 hover:bg-indigo-500" href="https://revou-fundamental-course.github.io/03-mar-25-Ahsaju107/"><i class="fa-regular fa-pen-to-square"></i></a>
+        </div>
+
+        <div class="project-card bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300">
+          <img src="./assets/images/thumbnail-quizz.png" alt="thumbnail-quizz">
+          <div></div>
+          <div class="project-content p-4">
+            <h3 class="font-semibold text-xl mb-2">Quizz Bahasa Jepang</h3>
+            <p>Website ini adalah platform untuk membuat dan mengelola kuis online yang dapat digunakan oleh siapapun yang ingin belajar bahasa jepang.</p>
+          </div>
+          <a class="mb-3 ml-3 hover:bg-indigo-500" href="https://ahsaju107.github.io/japanese-quizz/"><i class="fa-regular fa-pen-to-square"></i></a>
+        </div>
+
+        <div class="project-card bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)]  transition-all duration-300">
+          <img src="./assets/images/thumbnail-todolist.png" alt="todolist thumbnail">
+          <div class="project-content p-4">
+            <h3 class="font-semibold text-xl mb-2">To Do List</h3>
+            <p>Website ini adalah platform untuk membuat dan mengelola daftar tugas yang dapat digunakan oleh siapapun yang ingin mengatur tugas-tugas mereka.</p>
+            <a class="mb-3 ml-3 hover:bg-indigo-500" href="https://ahsaju107.github.io/latihan-todo-list/"><i class="fa-regular fa-pen-to-square"></i></a>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+   </section>
+   <!--PROJECT SECTION END-->
 </body>
 
 </html>
