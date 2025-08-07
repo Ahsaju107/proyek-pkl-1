@@ -27,19 +27,29 @@
       <a class="font-bold text-xl" href="#hero">A<span class="text-indigo-500">S</span>J</a>
 
       <div class="hidden md:flex space-x-4">
-        <a href="#hero" class="text-white hover:bg-line-600/20 px-3 py-2 rounded">Home</a>
-        <a href="./pages/about.html" class="text-white hover:bg-line-600/20 px-3 py-2 rounded">About</a>
-        <a href="#contact" class="text-white hover:bg-line-600/20 px-3 py-2 rounded">Contact</a>
+        <a href="#hero" class="text-white hover:text-indigo-500 px-3 py-2 rounded">Home</a>
+        <a href="./pages/about.html" class="text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+        <a href="#contact" class="text-white hover:text-indigo-500 px-3 py-2 rounded">Contact</a>
       </div>
 
-      <div>
+      <div class="md:hidden">
         <button id="menu-toggle" class="text-white">
-
+          <i class="fa-solid fa-bars"></i>
         </button>
       </div>
-      <i class="fa-solid fa-bars"></i>
+
     </div>
    </nav>
+
+   <!--Mobile View Start-->
+   <div id="mobile-menu" class="hidden fixed right-4 top-16 z-50 bg-slate-900/80 backdrop-blur-sm w-1/2 float-end mt-2 me-2 py-4 rounded-md shadow-lg">
+    <div class="flex flex-col items-center text-center text-white space-y-4 px-4 py-2">
+       <a href="#hero" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">Home</a>
+        <a href="./pages/about.html" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+        <a href="#contact" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">Contact</a>
+    </div>
+   </div>
+   <!--Mobile View End-->
    <!--TOP BAR SECTION END-->
 
    <!--HERO SECTION START--> 
@@ -96,12 +106,12 @@
 
           <div class="about-card border-y-4 md:border-y-0 md:border-x-4 border-indigo-500 py-2 px-4">
             <h3 class="font-semibold text-xl text-indigo-500 text-center md:text-left">What I Do</h3>
-            <p class="text-center md:text-left">Saya belajar dan mengembangkan keterampilan di bidang teknologi informasi.</p>
+            <p class="text-center md:text-left">Belajar dan mengembangkan keterampilan di bidang teknologi informasi.</p>
           </div>
 
           <div class="about-card border-b-4 md:border-b-0 md:border-r-4 border-indigo-500 py-2 px-4">
             <h3 class="font-semibold text-xl text-indigo-500 text-center md:text-left">My Goal</h3>
-            <p class="text-center md:text-left">ingin menjadi seorang profesional di bidang teknologi informasi yang bermanfaat bagi masyarakat.</p>
+            <p class="text-center md:text-left">Ingin menjadi seorang profesional di bidang teknologi informasi yang bermanfaat bagi masyarakat.</p>
           </div>
         </div>
 
@@ -260,12 +270,15 @@
         <p class="text-sm text-gray-400 mb-4">© 2025 Ahmad Saddam Juwardi. <i>"Ragumu Rugimu".</i></p>
         <div class="flex justify-center space-x-4">
           <a href="https://github.com/ahsaju107" class="text-gray-400 hover:text-indigo-500 transition duration-300"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/ahmad-saddam-juwardi-123456789/" class="text-gray-400 hover:text-indigo-500 transition duration-300"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://twitter.com/ahsaju107" class="text-gray-400 hover:text-indigo-500 transition duration-300"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/saddamxc?igsh=MTVjdWx4ajY2Yjd3MA==" class="text-gray-400 hover:text-indigo-500 transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/19LcgQcAhb/" class="text-gray-400 hover:text-indigo-500 transition duration-300"><i class="fa-brands fa-facebook"></i></a>
         </div>
       </div>  
     </footer>
     <!--FOOTER END-->
+
+    <!--Javascript-->
+    <script src="./js/script.js"></script>
     </body>
 
 </html>
