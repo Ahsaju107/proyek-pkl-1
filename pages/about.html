@@ -28,7 +28,8 @@
 
             <div class="hidden md:flex space-x-4">
                 <a href="../index.html" class="text-white hover:text-indigo-500 px-3 py-2 rounded">Home</a>
-                <a href="./pages/about.html" class="text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+                <a href="#profile" class="text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+                <a href="../index.html#projects" class="text-white hover:text-indigo-500 px-3 py-2 rounded">Projects</a>
                 <a href="../index.html#contact" class="text-white hover:text-indigo-500 px-3 py-2 rounded">Contact</a>
             </div>
 
@@ -40,19 +41,97 @@
 
         </div>
     </nav>
-
     <!--Mobile View Start-->
     <div id="mobile-menu"
         class="hidden fixed right-4 top-16 z-50 bg-slate-900/80 backdrop-blur-sm w-1/2 float-end mt-2 me-2 py-4 rounded-md shadow-lg">
         <div class="flex flex-col items-center text-center text-white space-y-4 px-4 py-2">
             <a href="../index.html" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">Home</a>
-            <a href="./pages/about.html" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+            <a href="#profile" class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">About</a>
+            <a href="../index.html#projects"
+                class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">Projects</a>
             <a href="../index.html#contact"
                 class="w-full text-white hover:text-indigo-500 px-3 py-2 rounded">Contact</a>
         </div>
     </div>
     <!--Mobile View End-->
     <!--TOP BAR SECTION END-->
+
+    <!--ABOUT CONTENT START-->
+    <main>
+        <section id="profile" class="pt-32">
+            <div class="container max-w-full">
+                <div class="judul">
+                    <h2 class="text-3xl font-extrabold text-center mb-10">Profile</h2>
+                </div>
+
+                <!--pembukus konten sebelah kanan dan kiri-->
+                <div class="flex flex-wrap">
+
+                    <!--konten sebelah kiri-->
+                    <div class="lg:w-1/2">
+                        <img src="../assets/images/profile-2.jpeg" alt="foto profil"
+                            class="w-1/2 mx-auto rounded-lg mb-4">
+                        <div class="flex justify-center gap-2">
+                            <a class="text-2xl hover:text-indigo-500 transition-all duration-400"
+                                href="https://github.com/ahsaju107"><i class="fa-brands fa-github"></i></a>
+                            <a class="text-2xl hover:text-indigo-500 transition-all duration-400"
+                                href="https://www.instagram.com/saddamxc?igsh=MTVjdWx4ajY2Yjd3MA=="><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a class="text-2xl hover:text-indigo-500 transition-all duration-400"
+                                href="https://www.facebook.com/share/19LcgQcAhb/"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <!--konten sebelah kanan-->
+                    <div class="w-full lg:w-1/2 mt-4 lg:mt-0 px-3">
+                        <!--personal info-->
+                        <div class="mb-4 text-justify">
+                            <h2 class="text-center lg:text-left text-indigo-600 font-semibold text-xl">Personal Info
+                            </h2>
+                            <p class="mb-4">Saya adalah seorang siswa di SMK Negeri 1 Palasah jurusan Teknik Komputer
+                                dan Jaringan.
+                                Saat ini saya sedang duduk di bangku kelas 12 SMK,
+                                Saya memiliki passion dan ketertarikan yang besar dalam dunia pemrograman, terutama
+                                dalam pengembangan
+                                web
+                                dan teknologi IoT.</p>
+                            <p>Saat ini saya fokus mempelajari teknologi web modern seperti HTML5, CSS3, JavaScript,
+                                dan berbagai framework populer seperti Tailwind CSS dan Bootstrap. Saya sangat suka
+                                sekali membaca manga/manhwa, menonton anime, pacuan kuda, dan bermain game.</p>
+                        </div>
+
+                        <!--personal details-->
+                        <div class="text-justify">
+                            <h2 class="text-center lg:text-left font-semibold mx-auto text-indigo-600 text-xl mb-3">
+                                Personal Details</h2>
+                            <div class="detail-list grid grid-cols-2 gap-2">
+
+                                <div class="detail-item">
+                                    <h3 class="font-semibold">Nama Lengkap</h3>
+                                    <p class="text-sm">Ahmad Saddam Juwardi</p>
+                                </div>
+                                <div class="detail-item">
+                                    <h3 class="font-semibold">Tempat/Tanggal Lahir</h3>
+                                    <p class="text-sm">Bekasi, 7 April 2008</p>
+                                </div>
+                                <div class="detail-item">
+                                    <h3 class="font-semibold">Alamat</h3>
+                                    <p class="text-sm">Cirebon, Jawa barat</p>
+                                </div>
+                                <div class="detail-item">
+                                    <h3 class="font-semibold">Email</h3>
+                                    <p class="text-sm">ahmdsaddm@gmail.com</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--ABOUT CONTENT END-->
 
     <!--FOOTER START-->
     <footer class="bg-dark pt-24 pb-12">

@@ -15,3 +15,14 @@ document.getElementsByClassName('fa-bars')[0].addEventListener('click',
         this.classList.replace('fa-xmark', 'fa-bars');      // mengganti class 'fa-xmark' (ikon silang) menjadi 'fa-bars' (ikon hamburger)
     }
 });
+
+// Menutup menu saat mengklik di luar menu
+document.addEventListener('click', function(e) {
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuToggle = document.getElementById('menu-toggle');
+    
+    if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+        mobileMenu.classList.add('hidden');
+        document.getElementsByClassName('fa-xmark')[0].classList.replace('fa-xmark', 'fa-bars'); // Mengganti ikon silang kembali ke ikon hamburger
+    }
+});
