@@ -16,7 +16,7 @@ document.getElementsByClassName('fa-bars')[0].addEventListener('click',
     }
 });
 
-// Menutup menu saat mengklik di luar menu
+//FUNGSI UNTUK MENUTUP MENU KETIKA MENGKLIK DILUAR MENU
 document.addEventListener('click', function(e) {
     const mobileMenu = document.getElementById('mobile-menu');
     const menuToggle = document.getElementById('menu-toggle');
@@ -26,3 +26,5 @@ document.addEventListener('click', function(e) {
         document.getElementsByClassName('fa-xmark')[0].classList.replace('fa-xmark', 'fa-bars'); // Mengganti ikon silang kembali ke ikon hamburger
     }
 });
+
+
