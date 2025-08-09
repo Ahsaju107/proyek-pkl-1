@@ -1,3 +1,5 @@
+AOS.init();
+
 // FUNGSI UNTUK MOBILE MENU BAR
 document.getElementById('menu-toggle').addEventListener('click', //mentrigger fungsi ketika elemen dengan id 'menu-toggle' di klik
     function(){

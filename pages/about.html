@@ -13,6 +13,10 @@
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--FONT AWESOME ICON END-->
+
+    <!--AOS LIBRARY-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body class="leading-7 bg-slate-900 text-cyan-50">
@@ -58,7 +62,7 @@
         <section id="profile" class="pt-32">
             <div class="container max-w-full">
                 <div class="judul">
-                    <h2 class="text-3xl font-extrabold text-center mb-10">Profile</h2>
+                    <h2 data-aos="fade-up" class="text-3xl font-extrabold text-center mb-10">Profile</h2>
                 </div>
 
                 <!--pembukus konten sebelah kanan dan kiri-->
@@ -66,9 +70,9 @@
 
                     <!--konten sebelah kiri-->
                     <div class="lg:w-1/2">
-                        <img src="../assets/images/profile-2.jpeg" alt="foto profil"
+                        <img data-aos="zoom-out" src="../assets/images/profile-2.jpeg" alt="foto profil"
                             class="w-1/2 mx-auto rounded-lg mb-4">
-                        <div class="flex justify-center gap-2">
+                        <div data-aos="flip-right" data-aos-delay="100" class="flex justify-center gap-2">
                             <a class="text-2xl hover:text-indigo-500 transition-all duration-400"
                                 href="https://github.com/ahsaju107"><i class="fa-brands fa-github"></i></a>
                             <a class="text-2xl hover:text-indigo-500 transition-all duration-400"
@@ -84,40 +88,40 @@
                     <div class="w-full lg:w-1/2 mt-4 lg:mt-0 px-3">
                         <!--personal info-->
                         <div class="mb-4 text-justify">
-                            <h2 class="text-center lg:text-left text-indigo-600 font-semibold text-xl">Personal Info
+                            <h2 data-aos="fade-down"  class="text-center lg:text-left text-indigo-600 font-semibold text-xl">Personal Info
                             </h2>
                             
-                            <p class="mb-4">Saya adalah seorang siswa di SMK Negeri 1 Palasah jurusan Teknik Komputer
+                            <p data-aos="fade-down" data-aos-delay="100" class="mb-4">Saya adalah seorang siswa di SMK Negeri 1 Palasah jurusan Teknik Komputer
                                 dan Jaringan.
                                 Saat ini saya sedang duduk di bangku kelas 12 SMK,
                                 Saya memiliki passion dan ketertarikan yang besar dalam dunia pemrograman, terutama
                                 dalam pengembangan
                                 web
                                 dan teknologi IoT.</p>
-                            <p>Saat ini saya fokus mempelajari teknologi web modern seperti HTML5, CSS3, JavaScript,
+                            <p data-aos="fade-down" data-aos-delay="150">Saat ini saya fokus mempelajari teknologi web modern seperti HTML5, CSS3, JavaScript,
                                 dan berbagai framework populer seperti Tailwind CSS dan Bootstrap. Saya sangat suka
                                 sekali membaca manga/manhwa, menonton anime, pacuan kuda, dan bermain game.</p>
                         </div>
 
                         <!--personal details-->
                         <div>
-                            <h2 class="text-center lg:text-left font-semibold mx-auto text-indigo-600 text-xl mb-3">
+                            <h2 data-aos="fade-down" data-aos-delay="160" class="text-center lg:text-left font-semibold mx-auto text-indigo-600 text-xl mb-3">
                                 Personal Details</h2>
                             <div class="detail-list grid grid-cols-2 gap-2 md:mx-auto md:w-1/2 lg:w-full text-left">
 
-                                <div class="detail-item">
+                                <div data-aos="flip-up" class="detail-item">
                                     <h3 class="font-semibold">Nama Lengkap</h3>
                                     <p class="text-sm">Ahmad Saddam Juwardi</p>
                                 </div>
-                                <div class="detail-item">
+                                <div data-aos="flip-up" data-aos-delay="100" class="detail-item">
                                     <h3 class="font-semibold">Tempat/Tanggal Lahir</h3>
                                     <p class="text-sm">Bekasi, 7 April 2008</p>
                                 </div>
-                                <div class="detail-item">
+                                <div data-aos="flip-up" data-aos-delay="150" class="detail-item">
                                     <h3 class="font-semibold">Alamat</h3>
                                     <p class="text-sm">Cirebon, Jawa barat</p>
                                 </div>
-                                <div class="detail-item">
+                                <div data-aos="flip-up" data-aos-delay="200" class="detail-item">
                                     <h3 class="font-semibold">Email</h3>
                                     <p class="text-sm">ahsaju107@gmail.com</p>
                                 </div>
@@ -159,6 +163,7 @@
     <!--FOOTER END-->
 
     <!--Javascript-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/script.js"></script>
 </body>
 
