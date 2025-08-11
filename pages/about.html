@@ -19,10 +19,10 @@
 
 </head>
 
-<body class="leading-7 bg-slate-900 text-cyan-50">
+<body class="leading-7 font-primary bg-slate-900 text-cyan-50">
     <!--TOP BAR SECTION START-->
     <nav
-        class="fixed top-0 w-full z-10 bg-slate-900/80 backdrop-blur-sm px-8 py-4 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)]">
+        class="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-sm px-8 py-4 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)]">
         <div class="flex justify-between items-center">
             <a class="font-bold text-xl" href="../index.html#hero">A<span class="text-indigo-500">S</span>J</a>
 
@@ -59,7 +59,7 @@
     <!--ABOUT CONTENT START-->
     <main>
         <!--PROFILE SECTION START-->
-        <section id="profile" class="pt-32">
+        <section id="profile" class="pt-32 bg-gradient-to-b from-slate-900 via-slate-900 to-indigo-700">
             <div class="container max-w-full">
                 <div class="judul">
                     <h2 data-aos="fade-up" class="text-3xl font-extrabold text-center mb-10">Profile</h2>
@@ -88,24 +88,28 @@
                     <div class="w-full lg:w-1/2 mt-4 lg:mt-0 px-3">
                         <!--personal info-->
                         <div class="mb-4 text-justify">
-                            <h2 data-aos="fade-down"  class="text-center lg:text-left text-indigo-600 font-semibold text-xl">Personal Info
+                            <h2 data-aos="fade-down"
+                                class="text-center lg:text-left text-indigo-600 font-semibold text-xl">Personal Info
                             </h2>
-                            
-                            <p data-aos="fade-down" data-aos-delay="100" class="mb-4">Saya adalah seorang siswa di SMK Negeri 1 Palasah jurusan Teknik Komputer
+
+                            <p data-aos="fade-down" data-aos-delay="100" class="mb-4">Saya adalah seorang siswa di SMK
+                                Negeri 1 Palasah jurusan Teknik Komputer
                                 dan Jaringan.
                                 Saat ini saya sedang duduk di bangku kelas 12 SMK,
                                 Saya memiliki passion dan ketertarikan yang besar dalam dunia pemrograman, terutama
                                 dalam pengembangan
                                 web
                                 dan teknologi IoT.</p>
-                            <p data-aos="fade-down" data-aos-delay="150">Saat ini saya fokus mempelajari teknologi web modern seperti HTML5, CSS3, JavaScript,
+                            <p data-aos="fade-down" data-aos-delay="150">Saat ini saya fokus mempelajari teknologi web
+                                modern seperti HTML5, CSS3, JavaScript,
                                 dan berbagai framework populer seperti Tailwind CSS dan Bootstrap. Saya sangat suka
                                 sekali membaca manga/manhwa, menonton anime, pacuan kuda, dan bermain game.</p>
                         </div>
 
                         <!--personal details-->
                         <div>
-                            <h2 data-aos="fade-down" data-aos-delay="160" class="text-center lg:text-left font-semibold mx-auto text-indigo-600 text-xl mb-3">
+                            <h2 data-aos="fade-down" data-aos-delay="160"
+                                class="text-center lg:text-left font-semibold mx-auto text-indigo-600 text-xl mb-3">
                                 Personal Details</h2>
                             <div class="detail-list grid grid-cols-2 gap-2 md:mx-auto md:w-1/2 lg:w-full text-left">
 
@@ -135,8 +139,66 @@
         <!--PROFILE SECTION END-->
 
         <!--EDUCATION SECTION START-->
-        <section id="education" class="pt-32">
-            
+        <section id="education" class="pt-32 bg-gradient-to-b from-indigo-700 via-indigo-800 to-slate-900">
+            <div class="mb-6">
+                <h1 data-aos="fade-up" class="font-extrabold text-3xl text-center">Education</h1>
+            </div>
+            <div class="relative container mx-auto px-6 flex flex-col space-y-8">
+
+                <div data-aos="fade-up" class="absolute z-0 w-2 h-full bg-indigo-600 shadow-md inset-0 rounded-full left-17 md:mx-auto md:right-0 md:left-0"></div>
+               
+                <!--SD-->
+                <div class="relative z-10">
+                    <img data-aos="fade-up" src="../assets/images/timeline-sd.jpeg" alt="timeline sd"
+                        class="timeline-img" />
+                    <div data-aos="fade-up" data-aos-delay="100" class="timeline-container">
+                        <div class="timeline-pointer"
+                         aria-hidden="true"></div>
+                        <div class="bg-slate-800 p-6 rounded-md shadow-md">
+                            <span class="font-bold text-indigo-500 text-sm tracking-wide">2014 -2020</span>
+                            <h1 class="text-2xl font-bold pt-1">SDN 1 Walahar</h1>
+                            <p>
+                                 Menempuh pendidikan dasar di SDN 1 Walahar dengan aktif dalam kegiatan pramuka dan upacara bendera. Mengikuti berbagai kegiatan ekstrakurikuler yang membantu mengembangkan kemampuan sosial dan kerjasama tim.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--SMP-->
+                    <div class="relative z-10">
+                    <img data-aos="fade-up" src="../assets/images/timeline-smp.jpeg" alt="timeline smp"
+                        class="timeline-img" />
+                    <div data-aos="fade-up" data-aos-delay="100" class="timeline-container timeline-container-left">
+                        <div class="timeline-pointer timeline-pointer-left"
+                         aria-hidden="true"></div>
+                        <div class="bg-slate-800 p-6 rounded-md shadow-md">
+                            <span class="font-bold text-indigo-500 text-sm tracking-wide">2020 - 2023</span>
+                            <h1 class="text-2xl font-bold pt-1">SMPN 2 Gempol</h1>
+                            <p>
+                                 Di SMPN 2 Gempol mulai mengembangkan minat di bidang teknologi melalui klub komputer sekolah. Aktif dalam OSIS dan kegiatan ekstrakurikuler yang mengasah kemampuan berorganisasi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--SMK-->
+                    <div class="relative z-10">
+                    <img data-aos="fade-up"  src="../assets/images/timeline-smk.png" alt="timeline smk"
+                        class="timeline-img" />
+                    <div data-aos="fade-up" data-aos-delay="100" class="timeline-container-last">
+                        <div class="timeline-pointer"
+                         aria-hidden="true"></div>
+                        <div class="bg-slate-800 p-6 rounded-md shadow-md">
+                            <span class="font-bold text-indigo-500 text-sm tracking-wide">2023 - 2026</span>
+                            <h1 class="text-2xl font-bold pt-1">SMKN 1 Palasah</h1>
+                            <p>
+                               Saat ini bersekolah di SMKN 1 Palasah jurusan TKJ. Aktif di eskul IoT dan berhasil meraih juara 1 ITNSA tingkat Kabupaten serta peringkat 5 tingkat Provinsi.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
         </section>
         <!--EDUCATION SECTION END-->
     </main>
