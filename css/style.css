@@ -24,4 +24,22 @@
     .timeline-pointer-left {
         @apply md:left-auto md:right-14;
     }
+    .judul-section {
+        @apply text-3xl font-bold mb-4 relative inline-block after:content-[''] after:block after:w-1/2 after:h-1 after:bg-indigo-500 after:mx-auto after:mt-2 after:rounded-lg;
+    }
+    .skills-item {
+        @apply flex items-center gap-2 p-2 md:p-3 border border-white/25 hover:border-indigo-500 hover:bg-white/10 rounded transition-all duration-300;
+    }
+    .project-card {
+        @apply bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300;
+    }
+    .input-form {
+        @apply  w-full bg-slate-800 rounded focus:outline-none focus:ring-indigo-500 focus:ring-1;
+    }
+    .subjudul-about {
+        @apply  font-semibold text-xl text-indigo-500 text-center md:text-left;
+    }
+    .project-button {
+        @apply  ml-3 mb-3 hover:text-indigo-700;
+    }
 }
