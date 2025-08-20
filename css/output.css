@@ -762,6 +762,7 @@ video {
 .project-card{
   border-radius: 0.375rem;
   background-color: rgb(100 116 139 / 0.25);
+  text-align: justify;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -778,6 +779,10 @@ video {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 
 .input-form:focus{
@@ -805,12 +810,23 @@ video {
   }
 }
 
-.project-button{
-  margin-left: 0.75rem;
-  margin-bottom: 0.75rem;
+.project-button:hover{
+  --tw-text-opacity: 1;
+  color: rgb(67 56 202 / var(--tw-text-opacity, 1));
 }
 
-.project-button:hover{
+.img-project{
+  height: 16rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.summary-style{
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 2rem;
   --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity, 1));
 }
@@ -917,16 +933,16 @@ video {
   margin-inline-end: 0.5rem;
 }
 
-.ml-3{
-  margin-left: 0.75rem;
-}
-
 .mt-2{
   margin-top: 0.5rem;
 }
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.inline{
+  display: inline;
 }
 
 .flex{
@@ -1031,6 +1047,10 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .rounded{
   border-radius: 0.25rem;
 }
@@ -1045,6 +1065,10 @@ video {
 
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .border-2{
@@ -1355,11 +1379,6 @@ video {
 .hover\:border-indigo-500:hover{
   --tw-border-opacity: 1;
   border-color: rgb(99 102 241 / var(--tw-border-opacity, 1));
-}
-
-.hover\:bg-indigo-500:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-transparent:hover{

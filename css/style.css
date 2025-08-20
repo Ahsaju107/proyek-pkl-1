@@ -31,15 +31,21 @@
         @apply flex items-center gap-2 p-2 md:p-3 border border-white/25 hover:border-indigo-500 hover:bg-white/10 rounded transition-all duration-300;
     }
     .project-card {
-        @apply bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300;
+        @apply bg-slate-500/25 rounded-md hover:shadow-[0_0_10px_rgba(99,102,241,0.6),0_0_20px_rgba(99,102,241,0.4)] transition-all duration-300 text-justify;
     }
     .input-form {
-        @apply  w-full bg-slate-800 rounded focus:outline-none focus:ring-indigo-500 focus:ring-1;
+        @apply  w-full bg-slate-800 rounded focus:outline-none focus:ring-indigo-500 focus:ring-1 py-1.5 px-2.5;
     }
     .subjudul-about {
         @apply  font-semibold text-xl text-indigo-500 text-center md:text-left;
     }
     .project-button {
-        @apply  ml-3 mb-3 hover:text-indigo-700;
+        @apply hover:text-indigo-700;
+    }
+    .img-project {
+        @apply w-full h-64 object-fill rounded-lg;
+    }
+    .summary-style {
+        @apply cursor-pointer text-indigo-700 text-2xl;
     }
 }
