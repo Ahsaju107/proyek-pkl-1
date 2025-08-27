@@ -1255,6 +1255,10 @@ video {
   padding-top: 9rem;
 }
 
+.pr-5{
+  padding-right: 1.25rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1626,6 +1630,20 @@ video {
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:pl-6{
+    padding-left: 1.5rem;
   }
 
   .lg\:text-left{
