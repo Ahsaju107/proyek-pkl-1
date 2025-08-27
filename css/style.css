@@ -19,7 +19,7 @@
         @apply relative pt-2 text-justify xs:pl-28 xs:pt-0 md:w-1/2 md:ml-auto md:pl-16;
     }
     .timeline-pointer {
-        @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-slate-800 xs:top-11  md:left-14;
+        @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-slate-900/80 backdrop-blur-sm xs:top-11  md:left-14;
     }
     .timeline-pointer-left {
         @apply md:left-auto md:right-14;

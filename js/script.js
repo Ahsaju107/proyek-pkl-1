@@ -30,3 +30,12 @@ document.addEventListener('click', function(e) {
 });
 
 
+ function openLightbox(src, title, desc) {
+                document.getElementById('lightbox').classList.remove('hidden');
+                document.getElementById('lightbox-img').src = src;
+                document.getElementById('lightbox-title').innerText = title;
+                document.getElementById('lightbox-desc').innerText = desc;
+            }
+            function closeLightbox() {
+                document.getElementById('lightbox').classList.add('hidden');
+            }
